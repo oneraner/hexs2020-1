@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+.ml-all{
+    margin-left: 360px;
+}
+.font-white{
+    color: #ffffff;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.m-auto{
+    margin: auto;
+}
+.title1{
+    font-family: PingFang TC , Microsoft JhengHei;
+    font-size: 32px;
+    font-weight: 800;
+    margin-right: 16px;
+}
+.title2{
+    font-family: Roboto;
+    color: #A00404;
+    font-size: 24px;
+    font-weight: 800;
+}
+.skilltitle2{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 7px;
+}
+.maincontent{
+    font-family: PingFang TC , Microsoft JhengHei;
+    font-size: 24px;
+    font-weight: 200;
+    margin: 0;
+}
+.profile p{
+    margin-left: 48px;
+}
+.pro-mb{
+    margin-bottom: 8px;
+}
+.pro-mb1{
+    margin-bottom: 24px;
+}
+.pro-mb2{
+    margin-bottom: 79px;
+}
+.edu-mb{
+    margin-bottom: 72px;
+}
+.name{
+    font-family: Andale Mono ,Regular ;
+    font-size: 80px;
+    color: #000;
+    margin-top: 48px;
+    margin-left: 360px;
+    margin-bottom: 33px;
+}
+.border{
+    width: 1200px;
+    height: 1px;
+    border-style: solid;
+    border-width: 0.5px;
+    margin-bottom: 34px;
+}
+.proborder{
+    width: 1200px;
+    height: 1px;
+    border-style: solid;
+    border-width: 0.5px;
+    margin-bottom: 14px;
+}
+.photo{
+    margin-bottom: 48px;
+}
+.photo img{
+    width: 324px;
+    height: 324px;
+    border-radius: 50%;
+}
+.timeline{
+    position: relative;
+}
+.timeline::before{
+    border-left: solid;
+    content: '';
+    position: absolute;
+    width: 1px;
+    color: #96a9C4;
+    top: 22px;
+    bottom: 22px;
+    left: 29.5px;
+    z-index: 2;
+}
+.container{
+    position: relative;
+    left: 30px;
+}
+.container::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: -8px;
+    background-color: #96a9C4;
+    top: 14px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.content{
+    padding: 10px 20px;
+    font-size: 24px;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #415165;
+}
+.skill{
+    position: relative;
+    width: 1200px;
+    background-color: #415165;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 79px;
+}
+.skill::after {
+	content: "";
+	position: absolute;
+	background-color: #96A9C4;
+	z-index: -1;
+	height: 316px;
+	width: 1920px;
+    top: 58px;
+    left: -360px;
+}
+.skill-pt{
+    padding-top: 24px;
+    margin: 0 auto 50px auto;
+}
+.skill1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 996px;
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-bottom-color:#ffffff;
+}
+.skill-item{
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 0 auto 55px auto;
+    padding-left: 24px;
+    
+}
+.skill ul{
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #ffffff;
+}
+.skill li{
+    list-style: none;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.expborder{
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #000000;
+}
+.expcontent{
+    margin-bottom: 8px;
+    font-family: PingFang TC , Microsoft JhengHei;
+    font-weight: 800;
+    padding-left: 0;
+}
+.expimg1{
+    width: 89.5px;
+    height: 66.5px;
+}
+.expimg2{
+    width: 72px;
+    height: 73px;
+}
+.exppad{
+    padding-left: 20px;
+}
+.expp{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 8.15px;
+    width: 642px;
+}
+.expmb{
+    margin-bottom: 32px;
+}
+.expbotset{
+    margin-bottom: 72px;
+}
+.contact p{
+    font-size: 24px;
+    font-family: PingFang TC , Microsoft JhengHei;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.contacttitlemb{
+    margin-bottom: 38px;
+}
+.contact img{
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+    margin-bottom: 48px;
+}
