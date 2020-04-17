@@ -1,8 +1,16 @@
 *{
     box-sizing: border-box;
+    font-family: Roboto , PingFang TC , Microsoft JhengHei;
 }
-.ml-all{
-    margin-left: 360px;
+.wrap{
+    width: 1920px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.blockmb{
+    margin-bottom: 72px;
 }
 .font-white{
     color: #ffffff;
@@ -19,13 +27,13 @@
     font-family: PingFang TC , Microsoft JhengHei;
     font-size: 32px;
     font-weight: 800;
-    margin-right: 16px;
 }
 .title2{
     font-family: Roboto;
     color: #A00404;
     font-size: 24px;
     font-weight: 800;
+    padding-left: 16px;
 }
 .skilltitle2{
     font-family: Roboto;
@@ -48,9 +56,6 @@
 .pro-mb1{
     margin-bottom: 24px;
 }
-.pro-mb2{
-    margin-bottom: 79px;
-}
 .edu-mb{
     margin-bottom: 72px;
 }
@@ -59,22 +64,15 @@
     font-size: 80px;
     color: #000;
     margin-top: 48px;
-    margin-left: 360px;
-    margin-bottom: 33px;
+    margin-bottom: 24px;
+    line-height: 90px;
 }
-.border{
-    width: 1200px;
-    height: 1px;
-    border-style: solid;
-    border-width: 0.5px;
-    margin-bottom: 34px;
-}
-.proborder{
-    width: 1200px;
-    height: 1px;
-    border-style: solid;
-    border-width: 0.5px;
-    margin-bottom: 14px;
+.borderbottom{
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-bottom-color:#000000;
+    padding-bottom: 7px;
+    margin-bottom: 16px;
 }
 .photo{
     margin-bottom: 48px;
@@ -86,6 +84,7 @@
 }
 .timeline{
     position: relative;
+    padding-left: 20px;
 }
 .timeline::before{
     border-left: solid;
@@ -95,14 +94,16 @@
     color: #96a9C4;
     top: 22px;
     bottom: 22px;
-    left: 29.5px;
+    left: 19px;
     z-index: 2;
 }
-.container{
-    position: relative;
-    left: 30px;
+.left{
+    left:30px;
 }
-.container::before{
+.educontainer{
+    position: relative;
+}
+.educontainer::before{
     content: '';
     position: absolute;
     width: 16px;
@@ -132,7 +133,6 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-bottom: 79px;
 }
 .skill::after {
 	content: "";
@@ -171,7 +171,7 @@
     border-left-width: 1px;
     border-left-color: #ffffff;
 }
-.skill li{
+li{
     list-style: none;
     font-size: 24px;
     margin-bottom: 16px;
@@ -207,8 +207,8 @@
 .expmb{
     margin-bottom: 32px;
 }
-.expbotset{
-    margin-bottom: 72px;
+.contact a{
+    color: #ffffff;
 }
 .contact p{
     font-size: 24px;
